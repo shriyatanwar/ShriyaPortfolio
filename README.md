@@ -1,16 +1,117 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website built with React and Vite. This single-page application showcases personal information, skills, projects, experience, and education in an elegant and interactive interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The portfolio includes the following sections:
 
-## React Compiler
+- **Navigation** - Smooth navigation across different sections
+- **Hero** - Eye-catching landing section with introduction
+- **About** - Personal background and information
+- **Skills** - Technical skills and competencies
+- **Projects** - Showcase of personal and professional projects
+- **Experience** - Work experience and career history
+- **Education** - Educational background and qualifications
+- **Contact** - Contact information and form
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- **React 19.2.0** - Modern UI library
+- **Vite 7.2.2** - Fast build tool and development server
+- **ESLint** - Code linting and quality assurance
+- CSS3 - Custom styling for components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### Prerequisites
+
+Make sure you have Node.js installed on your machine (v18+ recommended).
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd ShriyaPortfolio
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+### Development
+
+Run the development server with hot module replacement:
+```bash
+npm run dev
+```
+
+The application will open at `http://localhost:5173` (or another port if 5173 is in use).
+
+### Build
+
+Create a production build:
+```bash
+npm run build
+```
+
+The optimized files will be generated in the `dist` directory.
+
+### Preview
+
+Preview the production build locally:
+```bash
+npm run preview
+```
+
+### Linting
+
+Run ESLint to check code quality:
+```bash
+npm run lint
+```
+
+## Project Structure
+
+```
+ShriyaPortfolio/
+├── src/
+│   ├── components/
+│   │   ├── About.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Education.jsx
+│   │   ├── Experience.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Navigation.jsx
+│   │   ├── Projects.jsx
+│   │   └── Skills.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   └── index.css
+├── public/
+├── package.json
+└── vite.config.js
+```
+
+## Development Notes
+
+- Each component has its own CSS file for modular styling
+- The project uses Vite for fast hot module replacement during development
+- React 19 is used with the latest features and optimizations
+- ESLint is configured with React-specific rules for code quality
+
+## Customization
+
+To customize the portfolio for your own use:
+
+1. Update the content in each component file under `src/components/`
+2. Modify styles in the corresponding CSS files
+3. Add your projects, experience, and education details
+4. Update contact information in the Contact component
+5. Replace any images or assets in the `public` directory
+
+## License
+
+This project is private and intended for personal use.

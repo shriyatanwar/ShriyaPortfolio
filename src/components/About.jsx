@@ -7,52 +7,73 @@ const About = () => {
   return (
     <section id="about" className="about">
       <div className="container">
-        <h2 className="section-title">About Me</h2>
+        <h2 className="section-title">Professional Summary</h2>
         <div className="about-content">
-          <div className="about-text">
-            <p>
-              I'm a passionate Full Stack Developer currently working at Abhyram IT Solutions Pvt Ltd, where I contribute to building scalable, user-friendly, and efficient software solutions. I love solving real-world problems through clean code, thoughtful design, and modern web technologies.
+          <div className="about-main">
+            <p className="about-intro">
+              Full Stack Developer with a unique blend of technical expertise and business acumen,
+              currently contributing to innovative solutions at Abhyram IT Solutions Pvt Ltd.
             </p>
-            <p>
-              Before transitioning into full-stack development, I worked as a Trainer 
-              and Business Coordinator, where I developed strong communication, 
-              problem-solving, and collaboration skills. This background gives me a 
-              unique perspective—combining technical thinking with real-world 
-              business understanding and user empathy.
-            </p>
-            <p>
-              My journey in web development started several years ago, and since
-              then, I've been constantly learning and adapting to new technologies.
-              I believe in writing code that is not only functional but also
-              maintainable and scalable.
-            </p>
-            <p>
-              Along with full stack development, I’m expanding my skill set in Artificial Intelligence, 
-              exploring how automation and 
-              intelligent systems can enhance real-world products and user experiences.
-            </p>
-            <p>
-              When I'm not coding, you can find me exploring new technologies,
-              contributing to open-source projects, or sharing knowledge with the
-              developer community.
-            </p>
-          </div>
-          <div
-            className="about-image"
-            style={{
-              transform: `translateY(${parallaxImage}px)`,
-              transition: 'transform 0.1s ease-out'
-            }}
-          >
-            <div className="image-wrapper">
-              <div className="profile-placeholder">
-                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    fill="#646cff"
-                    d="M39.5,-65.5C51.4,-58.7,61.4,-47.5,68.3,-34.8C75.2,-22.1,79,-7.9,77.3,5.6C75.6,19.1,68.4,31.9,59.1,42.3C49.8,52.7,38.4,60.7,25.5,65.8C12.6,70.9,-1.8,73.1,-15.3,70.2C-28.8,67.3,-41.4,59.3,-52.3,49.2C-63.2,39.1,-72.4,27,-76.8,13.2C-81.2,-0.6,-80.8,-16.1,-75.1,-30C-69.4,-43.9,-58.4,-56.2,-45.3,-62.5C-32.2,-68.8,-16.1,-69.1,-0.7,-67.9C14.7,-66.7,29.4,-64,39.5,-65.5Z"
-                    transform="translate(100 100)"
-                  />
-                </svg>
+
+            <div className="about-grid">
+              <div className="about-card">
+                <div className="card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </div>
+                <h3>Technical Excellence</h3>
+                <p>
+                  Specialized in building scalable, user-friendly software solutions using modern web technologies.
+                  Strong focus on clean code, thoughtful design, and maintainable architectures.
+                </p>
+              </div>
+
+              <div className="about-card">
+                <div className="card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                </div>
+                <h3>Business Perspective</h3>
+                <p>
+                  Previous experience as Trainer and Business Coordinator provides unique insights into
+                  client needs, team collaboration, and real-world business requirements.
+                </p>
+              </div>
+
+              <div className="about-card">
+                <div className="card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+                    <line x1="9" y1="9" x2="9.01" y2="9"></line>
+                    <line x1="15" y1="9" x2="15.01" y2="9"></line>
+                  </svg>
+                </div>
+                <h3>Continuous Growth</h3>
+                <p>
+                  Actively expanding into Artificial Intelligence and automation, exploring how intelligent
+                  systems can enhance products and user experiences.
+                </p>
+              </div>
+
+              <div className="about-card">
+                <div className="card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                    <path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                  </svg>
+                </div>
+                <h3>Community Engagement</h3>
+                <p>
+                  Regular contributor to open-source projects and active participant in the developer
+                  community, sharing knowledge and learning from peers.
+                </p>
               </div>
             </div>
           </div>

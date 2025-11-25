@@ -25,10 +25,6 @@ const Navigation = () => {
   return (
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
-        <div className="nav-logo" onClick={() => scrollToSection('hero')}>
-          Portfolio
-        </div>
-
         <button
           className="mobile-menu-toggle"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -44,6 +40,12 @@ const Navigation = () => {
           </li>
           <li className="nav-item">
             <a onClick={() => scrollToSection('about')}>About</a>
+          </li>
+          <li className="nav-item">
+            <a onClick={() => scrollToSection('experience')}>Experience</a>
+          </li>
+          <li className="nav-item">
+            <a onClick={() => scrollToSection('education')}>Education</a>
           </li>
           <li className="nav-item">
             <a onClick={() => scrollToSection('projects')}>Projects</a>

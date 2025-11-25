@@ -2,3 +2,43 @@
   width: 100%;
   min-height: 100vh;
 }
+
+/* Print styles for CV download */
+@media print {
+  .navbar,
+  .scroll-indicator,
+  .mobile-menu-toggle {
+    display: none !important;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 2rem;
+  }
+
+  section {
+    page-break-inside: avoid;
+    padding: 1rem 0 !important;
+  }
+
+  .hero-buttons,
+  .project-links,
+  .filter-buttons {
+    display: none !important;
+  }
+
+  body {
+    background: white;
+    color: black;
+  }
+
+  * {
+    color: black !important;
+    background: white !important;
+    box-shadow: none !important;
+  }
+
+  .section-title::after {
+    background: #646cff !important;
+  }
+}
