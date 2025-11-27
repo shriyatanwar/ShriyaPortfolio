@@ -95,6 +95,8 @@ const Hero = () => {
               <span className="skill-badge">React</span>
               <span className="skill-badge">Node.js</span>
               <span className="skill-badge">MongoDB</span>
+              <span className="skill-badge">Python</span>
+              <span className="skill-badge">Java</span>
             </div>
           </div>
         </div>
