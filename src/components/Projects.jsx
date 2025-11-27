@@ -15,7 +15,7 @@ const Projects = () => {
       technologies: ['React', 'Firebase', 'Material-UI'],
       image: '📋',
       link: '#',
-      github: '#',
+      github: 'https://github.com/shriyatanwar/FocusFlow-TO-DO',
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ const Projects = () => {
       technologies: ['React'],
       image: '🛒',
       link: '#',
-      github: '#',
+      github: 'https://github.com/shriyatanwar/eCommerce-WearMint',
     },
     {
       id: 3,
@@ -45,7 +45,7 @@ const Projects = () => {
       technologies: ['React', 'CSS3', 'Framer Motion'],
       image: '💼',
       link: '#',
-      github: '#',
+      github: 'https://github.com/shriyatanwar/FitAi',
     },
     {
       id: 5,
@@ -55,7 +55,7 @@ const Projects = () => {
       technologies: ['React.Js', 'Node.js'],
       image: '💵',
       link: '#',
-      github: '#',
+      github: 'https://github.com/shriyatanwar/SpendTracker',
     },
     {
       id: 6,
@@ -65,7 +65,7 @@ const Projects = () => {
       technologies: ['React.js'],
       image: '✈️',
       link: '#',
-      github: '#',
+      github: 'https://github.com/shriyatanwar/Bali__Guide',
     },
   ];
 
