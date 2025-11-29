@@ -2,6 +2,9 @@
 
 A modern, responsive portfolio website built with React and Vite. This single-page application showcases personal information, skills, projects, experience, and education in an elegant and interactive interface.
 
+Check out my portfolio: [My Portfolio](https://shriyatanwar.github.io/ShriyaPortfolio/)
+
+
 ## Features
 
 The portfolio includes the following sections:
