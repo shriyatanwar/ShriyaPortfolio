@@ -13,7 +13,7 @@ const Experience = () => {
         'Assisting in building and testing RESTful APIs and integrating them with front-end components.',
         'Collaborating with senior developers to understand application architecture and coding standards.',
         'Participating in code reviews, debugging, and performance testing to ensure quality and functionality.',
-        'Gaining hands-on experience in Agile workflows and project management processes.'
+        'Gaining hands on experience in Agile workflows and project management processes.'
       ]
     },
     {
